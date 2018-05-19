@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listArray">
+        <item>text1</item>
+        <item>text2</item>
+        <item>text3</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+
+    </string-array>
+
+    <string-array name="audioList">
+        <item>PCM(wav)-High quality</item>
+        <item>AAC(m4a)-Good quality</item>
+        <item>AMR(3gp)-Small files</item>
+        <item>MP3-Good quality</item>
+    </string-array>
+
+    <string-array name="audioValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+
+    </string-array>
+
+    <string-array name="sampleRateArray">
+        <item>44kHZ-CD quality</item>
+        <item>32kHz-FM quality</item>
+        <item>22kHz-Am radio quality</item>
+        <item>16kHz-Medium quality</item>
+        <item>11kHz-Lower quality</item>
+        <item>8kHz-Phone quality</item>
+    </string-array>
+
+    <string-array name="sampleRateValues">
+        <item>44000</item>
+        <item>32000</item>
+        <item>22000</item>
+        <item>16000</item>
+        <item>11000</item>
+        <item>8000</item>
+
+    </string-array>
+
+    <string-array name="encoderBitrateArray">
+         <item>320 kbps</item>
+        <item>256 kbps</item>
+        <item>192 kbps</item>
+        <item>128 kbps</item>
+        <item>96 kbps</item>
+        <item>64 kbps</item>
+        <item>32 kbps</item>
+    </string-array>
+
+    <string-array name="encoderBitrateValues">
+        <item>320000</item>
+        <item>256000</item>
+        <item>192000</item>
+        <item>128000</item>
+        <item>96000</item>
+        <item>64000</item>
+        <item>32000</item>
+    </string-array>
+
+    <string-array name="AudioSourceArray">
+        <item>Default</item>
+        <item>"Main microphone</item>
+        <item>Camera microphone</item>
+        <item>Phone call(expermimental)</item>
+    </string-array>
+
+    <string-array name="AudioSourceValues">
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>4</item>
+
+    </string-array>
+
+    <string-array name="LanguageArray">
+        <item>Default</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="LanguageValues">
+        <item>Default</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="sortRecordingArray">
+        <item>Date</item>
+        <item>Name</item>
+        <item>Size</item>
+        <item>Duration</item>
+    </string-array>
+
+    <string-array name="sortRecordingValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+
+    </string-array>
+
+    <!--Don't know about folder and sort recording-->
+</resources>

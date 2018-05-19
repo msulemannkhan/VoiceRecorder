@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--addded code for files-->
+
+
+    <android.support.v7.preference.ListPreference
+        android:key="recordingformat"
+        android:title="Recording Format"
+        android:summary="Select the kind of data that you would like to download"
+        android:entries="@array/audioList"
+        android:entryValues="@array/audioValues"
+        android:defaultValue="2"/>
+
+    <android.support.v7.preference.ListPreference
+        android:key="SampleRate"
+        android:title=" Sample Rate"
+        android:summary="Select the kind of data that you would like to download"
+        android:entries="@array/sampleRateArray"
+        android:entryValues="@array/sampleRateValues"
+        android:defaultValue="32000"/>
+
+    <android.support.v7.preference.ListPreference
+        android:key="EncoderBitrate"
+        android:title="Encoder Bitrate"
+        android:summary="Select the kind of data that you would like to download"
+        android:entries="@array/encoderBitrateArray"
+        android:entryValues="@array/encoderBitrateValues"
+        android:defaultValue="192000"/>
+
+
+    <android.support.v7.preference.ListPreference
+        android:key="AudioSource"
+        android:title="Audio Source"
+        android:entries="@array/AudioSourceArray"
+        android:entryValues="@array/AudioSourceValues"
+        android:defaultValue="0"/>
+
+    <android.support.v7.preference.CheckBoxPreference
+        android:key="StatusBar"
+        android:title="Status Bar"
+        android:summaryOff="Disable"
+        android:summaryOn="Enable"
+        android:defaultValue="true"/>
+
+
+    <Preference
+        android:key="dir"
+        android:summary="Default directory location for your recording"
+        android:title="Recording Folder"
+        android:selectable="true" />
+
+    <android.support.v7.preference.ListPreference
+        android:key="Language"
+        android:title="Language"
+        android:summary="Select the kind of data that you would like to download"
+        android:entries="@array/LanguageArray"
+        android:entryValues="@array/LanguageValues"
+        android:defaultValue="Default"/>
+
+    <!--<android.support.v7.preference.ListPreference-->
+        <!--android:key="SortRecording"-->
+        <!--android:title="Sort Recording"-->
+        <!--android:summary="Select the kind of data that you would like to download"-->
+        <!--android:entries="@array/sortRecordingArray"-->
+        <!--android:entryValues="@array/sortRecordingValues"-->
+        <!--android:defaultValue="2"/>-->
+    <Preference
+        android:key="app"
+        android:summary="@string/app_name"
+        android:title="Version 1.0"
+        android:selectable="true" />
+
+
+
+
+</android.support.v7.preference.PreferenceScreen>

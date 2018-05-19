@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6549fb</color>
+    <color name="colorPrimaryDark">#000095</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="colorAccent">#c8e8ff</color>
+
+    <!--github tablayout-->
+    <color name="primary">#6549fb</color>
+    <color name="primary_dark">#000095</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent">#448AFF</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+</resources>
