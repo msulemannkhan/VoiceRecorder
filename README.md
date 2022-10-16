@@ -1,2 +1,4 @@
 # VoiceRecorder
-This project is created by me and Khubaib
+
+Android application to record the voice.
+Authors: Suleman Khan, Khubaib Raza
